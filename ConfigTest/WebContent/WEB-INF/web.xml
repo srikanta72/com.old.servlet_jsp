@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>ConfigTest</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>SelectServlet</display-name>
+    <servlet-name>SelectServlet</servlet-name>
+    <servlet-class>pack1.SelectServlet</servlet-class>
+    <init-param>
+    <param-name>p1</param-name>
+    <param-value>oracle.jdbc.driver.OracleDriver</param-value>
+    </init-param>
+    <init-param>
+    <param-name>p2</param-name>
+    <param-value>jdbc:oracle:thin:@localhost:1521:orcl</param-value>
+    </init-param>
+    <init-param><param-name>p3</param-name>
+    <param-value>scott</param-value>
+    </init-param>
+    <init-param><param-name>p4</param-name><param-value>tiger</param-value></init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectServlet</servlet-name>
+    <url-pattern>/select</url-pattern>
+  </servlet-mapping>
+</web-app>

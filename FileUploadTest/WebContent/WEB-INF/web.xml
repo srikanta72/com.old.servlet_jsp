@@ -1,0 +1,6 @@
+<web-app>
+  <context-param>
+    <param-name>location</param-name>
+    <param-value>G:\</param-value>
+  </context-param>
+</web-app>
