@@ -1,0 +1,15 @@
+<taglib>
+	<tlib-version>1.3</tlib-version>
+	<jsp-version>2.1</jsp-version>
+	<uri>http://sathyatech.com/tag</uri>
+	<tag> 
+		<name>color</name>
+		<tag-class>pack1.ColorTag</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+			<name>cname</name>
+			<required>false</required>
+			<rtexprvalue>false</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>

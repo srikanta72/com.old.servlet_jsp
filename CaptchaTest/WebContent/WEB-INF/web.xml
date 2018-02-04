@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>Cap</servlet-name>
+		<servlet-class>com.jsos.image.CaptchaServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Cap</servlet-name>
+		<url-pattern>/captcha</url-pattern>
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,15 @@
+<taglib>
+	<tlib-version>1.3</tlib-version>
+	<jsp-version>2.1</jsp-version>
+	<uri>http://sathya.com/tags</uri>
+	<tag>
+		<name> hello</name>
+		<tag-class>pack1.HelloTag</tag-class>
+		<body-content>empty</body-content>
+			<attribute>
+				<name>username</name>
+				<required>true</required>
+				<rtexprvalue>true</rtexprvalue>
+			</attribute>
+	</tag>
+</taglib>
